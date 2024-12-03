@@ -1,6 +1,5 @@
 // vue.config.js
-module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-   ? '/asdfg/'
-   : './'
-};
+模块。出口= {
+  公共路径：'./'，
+   根据：'。/'
+} ;
