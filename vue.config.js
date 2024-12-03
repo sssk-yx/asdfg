@@ -1,5 +1,6 @@
 // vue.config.js
 module.exports = {
-  publicPath: './',
-   base: './'
+  publicPath: process.env.NODE_ENV === 'production'
+   ? '/asdfg/'
+   : './'
 };
