@@ -1,5 +1,5 @@
 // vue.config.js
-模块。出口= {
-  公共路径：'./'，
-   根据：'。/'
-} ;
+module.exports = {
+  publicPath: './',
+   base: './'
+};
